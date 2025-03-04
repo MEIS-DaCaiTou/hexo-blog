@@ -1110,85 +1110,58 @@ function changeMouseMode() {
 //----------------------------------------------------------------
 
 /* 控制台输出字符画 start */
-var now1 = new Date();
-
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
-  now1.setTime(now1.getTime() + 250);
-  var days = (now1 - grt) / 1000 / 60 / 60 / 24;
-  var dnum = Math.floor(days);
+  var grt = new Date("2025-02-08T00:00:00Z"); // 建站时间
+  var now = new Date(); // 获取当前时间
+  var dnum = Math.floor((now - grt) / 1000 / 60 / 60 / 24); // 计算天数
 
-  var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
-    `
-        
-███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
-██      ██    ██ ████  ████ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-█████   ██    ██ ██ ████ ██ ███████ ██      ███████ ███████ ██    ██    ██    
-██      ██    ██ ██  ██  ██ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
-                                              
-`,
-    "小站已经苟活",
-    dnum,
-    "天啦!",
-    "©2022 By Fomalhaut",
-  ];
+  var asciiArt = `
+%c 欢迎来到大菜头の小家!
+%c 相信美好的事情即将发生！
+%c
 
-  setTimeout(
-    console.log.bind(
-      console,
-      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
-      "color:#39c5bb",
-      "",
-      "color:#39c5bb",
-      "color:#39c5bb",
-      "",
-      "color:#39c5bb",
-      ""
-    )
-  );
+██████╗  █████╗  ██████╗ █████╗ ██╗████████╗ ██████╗ ██╗   ██╗
+██╔══██╗██╔══██╗██╔════╝██╔══██╗██║╚══██╔══╝██╔═══██╗██║   ██║
+██║  ██║███████║██║     ███████║██║   ██║   ██║   ██║██║   ██║
+██║  ██║██╔══██║██║     ██╔══██║██║   ██║   ██║   ██║██║   ██║
+██████╔╝██║  ██║╚██████╗██║  ██║██║   ██║   ╚██████╔╝╚██████╔╝
+╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝  ╚═════╝ 
+
+%c 小站已经苟活 %c ${dnum} %c 天啦!
+%c ©2025 By 大菜头
+`;
+
+  console.log(asciiArt, "color:#39c5bb", "", "color:#39c5bb", "color:#39c5bb", "", "color:#39c5bb", "");
 }
 
 createtime1();
 
 function createtime2() {
-  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, ` 🤪 `];
+  var asciiArt2 = `
+%c NCC2-036
+%c 调用前置摄像头拍照成功，识别为「大聪明」
+%c 
+Photo captured:
+%c 🤪
+`;
 
-  setTimeout(
-    console.log.bind(
-      console,
-      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,
-      "color:white; background-color:#10bcc0",
-      "",
-      "",
-      'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
-    )
+  console.log(
+    asciiArt2,
+    "color:white; background-color:#10bcc0",
+    "",
+    "",
+    'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
   );
 
-  setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临，大聪明", "color:white; background-color:#23c682", ""));
+  console.log("%c WELCOME %c 欢迎光临，大聪明", "color:white; background-color:#23c682", "");
 
-  setTimeout(
-    console.warn.bind(
-      console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
-      "color:white; background-color:#f0ad4e",
-      ""
-    )
-  );
+  console.warn("%c ⚡ Powered by 大菜头 %c 你正在访问大菜头の小家", "color:white; background-color:#f0ad4e", "");
 
-  setTimeout(console.log.bind(console, "%c W23-12 %c 系统监测到你已打开控制台", "color:white; background-color:#4f90d9", ""));
-  setTimeout(
-    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中", "color:white; background-color:#d9534f", "")
-  );
+  console.log("%c W23-12 %c 系统监测到你已打开控制台", "color:white; background-color:#4f90d9", "");
+  console.warn("%c S013-782 %c 你现在正处于监控中", "color:white; background-color:#d9534f", "");
 }
-createtime2();
 
-// 重写console方法
-console.log = function () { };
-console.error = function () { };
-console.warn = function () { };
+createtime2();
 
 /* 控制台输出字符画 end */
 
@@ -1282,8 +1255,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| 大菜头") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('大菜头的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -2781,38 +2754,44 @@ class Cursor {
 //----------------------------------------------------------------
 
 /* 页脚计时器 start */
-var now = new Date();
 function createtime() {
-  // 当前时间
-  now.setTime(now.getTime() + 1000);
-  var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间
-  var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
-  var unit = (dis / 149600000).toFixed(6);  // 天文单位
-  // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
-  var days = (now - grt) / 1e3 / 60 / 60 / 24,
-    dnum = Math.floor(days),
-    hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
-    hnum = Math.floor(hours);
-  1 == String(hnum).length && (hnum = "0" + hnum);
-  var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,
-    mnum = Math.floor(minutes);
-  1 == String(mnum).length && (mnum = "0" + mnum);
-  var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,
-    snum = Math.round(seconds);
-  1 == String(snum).length && (snum = "0" + snum);
-  let currentTimeHtml = "";
-  (currentTimeHtml =
-    hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://blog-data-6y4.pages.dev/图标/working.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://blog-data-6y4.pages.dev/图标/offwork.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
-    document.getElementById("workboard") &&
-    (document.getElementById("workboard").innerHTML = currentTimeHtml);
+  var now = new Date();
+  
+  // 旅行者1号距离计算
+  var start = new Date("2025-02-08T00:00:00Z");
+  var distance = 23400000000 + Math.trunc(((now - start) / 1000) * 17); 
+  var unit = (distance / 149600000).toFixed(6);  
+
+  // 网站运行时间计算
+  var grt = new Date("2025-02-08T00:00:00Z");
+  var elapsed = Math.floor((now - grt) / 1000);
+  var dnum = Math.floor(elapsed / 86400);
+  var hnum = String(Math.floor((elapsed % 86400) / 3600)).padStart(2, "0");
+  var mnum = String(Math.floor((elapsed % 3600) / 60)).padStart(2, "0");
+  var snum = String(elapsed % 60).padStart(2, "0");
+
+  // 工作时间判断
+  var workIcon =
+    hnum >= 9 && hnum < 18
+      ? `<img class='boardsign' src='https://blog-data-6y4.pages.dev/图标/working.svg' title='什么时候能够实现财富自由呀~'>`
+      : `<img class='boardsign' src='https://blog-data-6y4.pages.dev/图标/offwork.svg' title='下班了就该开开心心地玩耍~'>`;
+
+  var html = `
+    ${workIcon}<br>
+    <div style="font-size:13px;font-weight:bold">
+      本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 
+      <i id="heartbeat" class='fas fa-heartbeat'></i> <br>
+      旅行者 1 号当前距离地球 ${distance.toLocaleString()} 千米，约为 ${unit} 个天文单位 🚀
+    </div>
+  `;
+
+  var workboard = document.getElementById("workboard");
+  if (workboard) workboard.innerHTML = html;
 }
-// 设置重复执行函数，周期1000ms
-setInterval(() => {
-  createtime();
-}, 1000);
+
+// 每秒更新
+setInterval(createtime, 1000);
+
 
 /*页脚计时器 end */
 
