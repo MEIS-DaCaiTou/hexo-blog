@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/posts/d739261b.html</loc>
+    <loc>https://www.aidan.xin/posts/ef9ad51d.html</loc>
     
     <lastmod>2025-02-27</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/posts/ef9ad51d.html</loc>
+    <loc>https://www.aidan.xin/posts/d739261b.html</loc>
     
     <lastmod>2025-02-27</lastmod>
     
@@ -200,16 +200,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/personal/bb/index.html</loc>
-    
-    <lastmod>2025-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/life/games/index.html</loc>
+    <loc>https://www.aidan.xin/site/census/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -227,7 +218,16 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/site/census/index.html</loc>
+    <loc>https://www.aidan.xin/life/games/index.html</loc>
+    
+    <lastmod>2025-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aidan.xin/personal/bb/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/posts/4aa2d85f.html</loc>
+    <loc>https://www.aidan.xin/posts/fcb8725d.html</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -308,7 +308,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/posts/fcb8725d.html</loc>
+    <loc>https://www.aidan.xin/posts/4aa2d85f.html</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -381,13 +381,6 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/tags/Markdown/</loc>
-    <lastmod>2025-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.aidan.xin/tags/FastGPT/</loc>
     <lastmod>2025-03-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -438,6 +431,13 @@
   
   <url>
     <loc>https://www.aidan.xin/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aidan.xin/tags/Markdown/</loc>
     <lastmod>2025-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
