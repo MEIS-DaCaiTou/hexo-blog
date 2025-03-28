@@ -399,6 +399,20 @@
   </url>
   
   <url>
+    <loc>https://www.aidan.xin/tags/FastGPT/</loc>
+    <lastmod>2025-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aidan.xin/tags/AI%E6%99%BA%E8%83%BD%E4%BD%93/</loc>
+    <lastmod>2025-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.aidan.xin/tags/Node-js/</loc>
     <lastmod>2025-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -421,20 +435,6 @@
   
   <url>
     <loc>https://www.aidan.xin/tags/Markdown/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/tags/FastGPT/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/tags/AI%E6%99%BA%E8%83%BD%E4%BD%93/</loc>
     <lastmod>2025-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
