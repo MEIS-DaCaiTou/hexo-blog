@@ -218,15 +218,6 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/life/movies/index.html</loc>
-    
-    <lastmod>2025-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.aidan.xin/life/games/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
@@ -236,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/personal/bb/index.html</loc>
+    <loc>https://www.aidan.xin/life/movies/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -254,6 +245,15 @@
   </url>
   
   <url>
+    <loc>https://www.aidan.xin/personal/bb/index.html</loc>
+    
+    <lastmod>2025-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.aidan.xin/social/fcircle/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/box/gallery/index.html</loc>
+    <loc>https://www.aidan.xin/box/animation/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -272,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/box/animation/index.html</loc>
+    <loc>https://www.aidan.xin/box/gallery/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -413,6 +413,13 @@
   </url>
   
   <url>
+    <loc>https://www.aidan.xin/tags/Markdown/</loc>
+    <lastmod>2025-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.aidan.xin/tags/Node-js/</loc>
     <lastmod>2025-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -449,13 +456,6 @@
   
   <url>
     <loc>https://www.aidan.xin/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/tags/Markdown/</loc>
     <lastmod>2025-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
