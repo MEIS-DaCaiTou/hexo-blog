@@ -128,6 +128,15 @@
   </url>
   
   <url>
+    <loc>https://www.aidan.xin/posts/5389e93f.html</loc>
+    
+    <lastmod>2025-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.aidan.xin/posts/2d7ac914.html</loc>
     
     <lastmod>2025-02-27</lastmod>
@@ -146,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/posts/5389e93f.html</loc>
+    <loc>https://www.aidan.xin/posts/d739261b.html</loc>
     
     <lastmod>2025-02-27</lastmod>
     
@@ -156,15 +165,6 @@
   
   <url>
     <loc>https://www.aidan.xin/posts/ef9ad51d.html</loc>
-    
-    <lastmod>2025-02-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/posts/d739261b.html</loc>
     
     <lastmod>2025-02-27</lastmod>
     
@@ -218,15 +218,6 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/life/movies/index.html</loc>
-    
-    <lastmod>2025-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.aidan.xin/life/games/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
@@ -236,7 +227,16 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/social/fcircle/index.html</loc>
+    <loc>https://www.aidan.xin/life/movies/index.html</loc>
+    
+    <lastmod>2025-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aidan.xin/site/census/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -254,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/site/census/index.html</loc>
+    <loc>https://www.aidan.xin/social/fcircle/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -399,34 +399,6 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/tags/FastGPT/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/tags/AI%E6%99%BA%E8%83%BD%E4%BD%93/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/tags/Markdown/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/tags/%E9%87%91%E8%9E%8D%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.aidan.xin/tags/Node-js/</loc>
     <lastmod>2025-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -448,6 +420,27 @@
   </url>
   
   <url>
+    <loc>https://www.aidan.xin/tags/FastGPT/</loc>
+    <lastmod>2025-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aidan.xin/tags/AI%E6%99%BA%E8%83%BD%E4%BD%93/</loc>
+    <lastmod>2025-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aidan.xin/tags/Markdown/</loc>
+    <lastmod>2025-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.aidan.xin/tags/Windows/</loc>
     <lastmod>2025-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -463,6 +456,13 @@
   
   <url>
     <loc>https://www.aidan.xin/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/</loc>
+    <lastmod>2025-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aidan.xin/tags/%E9%87%91%E8%9E%8D%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
