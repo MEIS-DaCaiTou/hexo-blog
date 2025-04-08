@@ -272,6 +272,15 @@
   </url>
   
   <url>
+    <loc>https://www.aidan.xin/site/census/index.html</loc>
+    
+    <lastmod>2025-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.aidan.xin/life/movies/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
@@ -291,15 +300,6 @@
   
   <url>
     <loc>https://www.aidan.xin/social/fcircle/index.html</loc>
-    
-    <lastmod>2025-02-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/site/census/index.html</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -458,6 +458,13 @@
   </url>
   
   <url>
+    <loc>https://www.aidan.xin/tags/AI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.aidan.xin/tags/Node-js/</loc>
     <lastmod>2025-04-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -473,13 +480,6 @@
   
   <url>
     <loc>https://www.aidan.xin/tags/%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</loc>
-    <lastmod>2025-04-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.aidan.xin/tags/AI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -551,14 +551,14 @@
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.aidan.xin/categories/AI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.aidan.xin/categories/AI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.aidan.xin/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
